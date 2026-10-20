@@ -89,3 +89,8 @@ Eight workers transfer until interrupted; after two seconds main interrupts
 them and gives each a one-second join timeout. Interrupted blocking calls restore
 the interrupt flag, and the program reports successful transfers, attempts, retries,
 termination status, and the final balance.
+Run `edu.itc.se.lab01.task5.GracefulShutdown` for the cancellation demonstration.
+Eight workers transfer until interrupted; after two seconds main interrupts
+them and gives each a one-second join timeout. Interrupted blocking calls restore
+the interrupt flag, and the program reports successful transfers, attempts, retries,
+termination status, and the final balance.
